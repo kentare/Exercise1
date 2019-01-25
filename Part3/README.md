@@ -54,5 +54,4 @@ Go(go) is creating green thread. They handles the scheduling and allocation of t
 > You can either use alternative interpreters, or you can use multi-processing.  Multiprocessing is a technique where you use multiple python processes that gets its own python interpreter and memory space.
 
  ### What does `func GOMAXPROCS(n int) int` change?
-
  > How many CPU's that can be executed simultaneously. If you use runtime.NumCPU(), then you can get the local machines number of logical CPU's
